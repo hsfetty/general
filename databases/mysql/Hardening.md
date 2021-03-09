@@ -4,12 +4,12 @@ Before you dive in, it is important to first stop and ask yourself what the purp
 
 **Database Security** 
  - Get rid of extraneous databases and tables
->  `mysql> SHOW DATABASES;` List all databases
->   `mysql> DROP DATABASE [dbname];` Remove a database if it is unnecessary
->   `mysql> use [dbname];` Select a database to look at
->   `mysql> SHOW TABLES;` List all tables in the current database.
->   `mysql> SELECT * FROM [tname];` Look at what is stored in a table
->   `mysql> DROP TABLE [tname];` If you determine the table is extraneous
+>  `mysql> SHOW DATABASES;` List all databases\
+>  `mysql> DROP DATABASE [dbname];` Remove a database if it is unnecessary\
+>  `mysql> use [dbname];` Select a database to look at\
+>  `mysql> SHOW TABLES;` List all tables in the current database\
+>  `mysql> SELECT * FROM [tname];` Look at what is stored in a table\
+>  `mysql> DROP TABLE [tname];` If you determine the table is extraneous
 
 **User Security**
  - By default, there is no root password. Even if there is one, change it.
@@ -20,11 +20,11 @@ Before you dive in, it is important to first stop and ask yourself what the purp
 	 - `mysql> DROP USER "";`
 	 - or `mysql> mysql> DELETE FROM mysql.user WHERE USER = "";`
  - Get rid of extraneous users
-> `mysql> SHOW DATABASES;` List all databases
-> `mysql> use [dbname];` Choose a database to work with
-> `mysql> SHOW TABLES;` View tables in that database. Locate which would hold user info
-> `mysql> SELECT * FROM [user_table];` To view user
-> `mysql> DROP USER [uname];` To delete a user
+> `mysql> SHOW DATABASES;` List all databases\
+> `mysql> use [dbname];` Choose a database to work with\
+> `mysql> SHOW TABLES;` View tables in that database. Locate which would hold user info\
+> `mysql> SELECT * FROM [user_table];` To view user\
+> `mysql> DROP USER [uname];` To delete a user\
 > `mysql> FLUSH PRIVILEGES;` Reload grant tables and put changes into effect
  
 
