@@ -47,7 +47,10 @@
 
 	 - Output everything vertically by appending \G in place of the semicolon at the end of queries 
 		 - `mysql> SELECT * FROM user \G`
-![Sample output from appending \G](https://user-images.githubusercontent.com/64932388/110540807-ef4b5800-80f4-11eb-9eb1-26701a7c035d.png)
+
+
+![Vertical output](https://user-images.githubusercontent.com/64932388/110540807-ef4b5800-80f4-11eb-9eb1-26701a7c035d.png | height=100)
+
 
 **Linux Command Line**
  - Access MySQL 
