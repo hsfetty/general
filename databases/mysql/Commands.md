@@ -49,9 +49,6 @@
 		 - `mysql> SELECT * FROM user \G`
 
 
-![Vertical output](https://user-images.githubusercontent.com/64932388/110540807-ef4b5800-80f4-11eb-9eb1-26701a7c035d.png | height=100)
-
-
 **Linux Command Line**
  - Access MySQL 
 	 - ` # mysql -u root -p`
@@ -62,5 +59,6 @@
 		 - **Be very careful with this!** If you pass sensitive data into the command line with this, such as changing a user's password, it will be stored in your bash history.
 	 - You can optionally save the query output to a file:
 		 - `# mysql -u [uname] -p [dbname] -e "query" > [filename]`
+
  - Manage Service
 		 - `# systemctl status/start/stop mysql`
